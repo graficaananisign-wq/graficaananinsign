@@ -1,7 +1,7 @@
 import { seoPageSlugs } from "./seo-pages/data";
 import { locationSlugs } from "./localizacao/data";
 
-const BASE_URL = "https://graficaananisign.com.br";
+const BASE_URL = "https://graficaananisign.netlify.app";
 
 const blogSlugs = [
   "papel-cartao-visita",
