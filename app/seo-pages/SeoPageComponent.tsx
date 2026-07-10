@@ -1,5 +1,6 @@
 "use client";
 
+import { seoPages } from "./data";
 import type { SeoPage } from "./data";
 
 const whatsapp = "https://wa.me/5591984838437";
