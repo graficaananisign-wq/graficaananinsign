@@ -2,6 +2,13 @@
 
 import { FormEvent, useEffect, useState } from "react";
 
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[];
+    gtag: (...args: unknown[]) => void;
+  }
+}
+
 const whatsapp = "https://wa.me/5591984838437";
 
 function trackEvent(eventName: string, params: Record<string, string> = {}) {
