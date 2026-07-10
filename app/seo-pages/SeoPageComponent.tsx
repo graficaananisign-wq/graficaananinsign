@@ -90,7 +90,7 @@ export default function SeoPageComponent({ page }: { page: SeoPage }) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "AnaniSign Gráfica e Comunicação Visual",
-    image: "https://graficaananisign.com.br/images/logo-ananisign.jpg",
+    image: "https://graficaananisign.netlify.app/images/logo-ananisign.jpg",
     description: "Gráfica especializada em comunicação visual em Ananindeua-PA. Impressão digital de alta qualidade.",
     telephone: "(91) 98483-8437",
     email: "graficaananisign@gmail.com",
@@ -103,7 +103,7 @@ export default function SeoPageComponent({ page }: { page: SeoPage }) {
       addressCountry: "BR",
     },
     geo: { "@type": "GeoCoordinates", latitude: -1.364, longitude: -48.376 },
-    url: "https://graficaananisign.com.br",
+    url: "https://graficaananisign.netlify.app",
     openingHoursSpecification: [
       { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"], opens: "07:30", closes: "18:00" },
       { "@type": "OpeningHoursSpecification", dayOfWeek: "Saturday", opens: "08:00", closes: "12:00" },
@@ -147,9 +147,9 @@ export default function SeoPageComponent({ page }: { page: SeoPage }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Início", item: "https://graficaananisign.com.br" },
-      { "@type": "ListItem", position: 2, name: "Serviços", item: "https://graficaananisign.com.br/#servicos" },
-      { "@type": "ListItem", position: 3, name: page.service, item: `https://graficaananisign.com.br/seo-pages/${page.slug}` },
+      { "@type": "ListItem", position: 1, name: "Início", item: "https://graficaananisign.netlify.app" },
+      { "@type": "ListItem", position: 2, name: "Serviços", item: "https://graficaananisign.netlify.app/#servicos" },
+      { "@type": "ListItem", position: 3, name: page.service, item: `https://graficaananisign.netlify.app/seo-pages/${page.slug}` },
     ],
   };
 

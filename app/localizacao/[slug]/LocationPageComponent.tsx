@@ -13,7 +13,7 @@ export default function LocationPageComponent({ location }: { location: Location
     name: `AnaniSign Gráfica em ${city}`,
     description: `Gráfica e comunicação visual em ${city}-PA. Banners, adesivos, fachadas, brindes e impressão digital.`,
     telephone: "+55-91-98483-8437",
-    url: `https://graficaananisign.com.br/localizacao/${location.slug}`,
+    url: `https://graficaananisign.netlify.app/localizacao/${location.slug}`,
     address: {
       "@type": "PostalAddress",
       addressLocality: city,

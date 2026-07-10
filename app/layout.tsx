@@ -7,7 +7,7 @@ const geist = Geist({ variable: "--font-sans", subsets: ["latin"] });
 const playfair = Playfair_Display({ variable: "--font-serif", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://graficaananisign.com.br"),
+  metadataBase: new URL("https://graficaananisign.netlify.app"),
   title: "AnaniSign | Gráfica em Belém, Ananindeua e Marituba — PA",
   description: "Banners, adesivos, fachadas, brindes e impressão digital em Belém, Ananindeua e Marituba-PA. Qualidade profissional, atendimento rápido e entrega no prazo.",
   keywords: [
@@ -35,8 +35,8 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "PrintShop",
   name: "Gráfica AnaniSign",
-  image: "https://graficaananisign.com.br/images/logo-ananisign.jpg",
-  url: "https://graficaananisign.com.br",
+  image: "https://graficaananisign.netlify.app/images/logo-ananisign.jpg",
+  url: "https://graficaananisign.netlify.app",
   telephone: "+55-91-98483-8437",
   email: "graficaananisign@gmail.com",
   priceRange: "$$",

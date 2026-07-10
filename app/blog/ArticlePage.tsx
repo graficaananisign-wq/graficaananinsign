@@ -21,8 +21,8 @@ export default function ArticlePage({ article }: { article: Article }) {
     datePublished: "2026-07-09",
     dateModified: "2026-07-09",
     author: { "@type": "Organization", name: "Gráfica AnaniSign" },
-    publisher: { "@type": "Organization", name: "Gráfica AnaniSign", logo: { "@type": "ImageObject", url: "https://graficaananisign.com.br/images/logo-ananisign.jpg" } },
-    mainEntityOfPage: `https://graficaananisign.com.br/blog/${article.slug}`,
+    publisher: { "@type": "Organization", name: "Gráfica AnaniSign", logo: { "@type": "ImageObject", url: "https://graficaananisign.netlify.app/images/logo-ananisign.jpg" } },
+    mainEntityOfPage: `https://graficaananisign.netlify.app/blog/${article.slug}`,
     keywords: [article.keyword, "gráfica em Ananindeua", "comunicação visual em Ananindeua"],
   };
 
