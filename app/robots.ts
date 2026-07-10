@@ -7,6 +7,6 @@ export default function robots() {
         disallow: ["/.next/", "/api/", "/admin/"],
       },
     ],
-    sitemap: "https://graficaananisign.com.br/sitemap.xml",
+    sitemap: "https://graficaananisign.netlify.app/sitemap.xml",
   };
 }
